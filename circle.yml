@@ -1,6 +1,6 @@
-machine:
-  python:
-   version: pypy-4.0.1
+#machine:
+#  python:
+#   version: pypy-4.0.1
 
 dependencies:
   override:
