@@ -1,6 +1,8 @@
-#machine:
-#  python:
-#   version: pypy-4.0.1
+machine:
+  pre:
+    - python --version
+    - which python
+    - virtualenv
 
 dependencies:
   override:
