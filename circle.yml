@@ -1,9 +1,3 @@
-machine:
-  pre:
-    - python --version
-    - which python
-    - virtualenv
-
 dependencies:
   override:
     - pip install numpy
